@@ -20,7 +20,7 @@
     color: white;
     font-family: MARSNEVENEKSK;
     width: 344px;
-    font-size: 100px;
+    font-size: 75px;
     transition: ease-in;
     transition-duration: 1200ms;
     transition-delay: 250ms;
@@ -153,7 +153,7 @@
 @media (min-width:768px) {
   #MainCover {
     height: 846px;
-    background-image: url(../../assets/img/Untitled-1.png);
+    background-image: url(../../assets/img/cover.png);
     background-position: center;
     background-size: cover;
   }
@@ -162,7 +162,7 @@
 @media (max-width:767px) {
   #MainCover {
     height: 700px;
-    background-image: url(../../assets/img/70998125-illuminated-red-brick-wall-with-lights.jpg);
+    background-image: url(../../assets/img/cover.png);
     background-position: center;
     background-size: cover;
   }

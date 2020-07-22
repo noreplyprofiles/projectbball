@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'HelveticaNowDisplay ExtraBlack';
+	src: url(../../assets/fonts/HelveticaNowDisplay-ExtBlk.woff2) format('woff2'),
+	url(../../assets/fonts/HelveticaNowDisplay-ExtBlk.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNowDisplay ExtraBlack';
+	src: url(../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.woff2) format('woff2'),
+	url(../../assets/fonts/HelveticaNowDisplay-ExtBlkIta.woff) format('woff');
+	font-weight: 900;
+	font-style: italic;
+}

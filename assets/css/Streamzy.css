@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Streamzy';
+	src: url(../../assets/fonts/StreamzyRegular.woff2) format('woff2'),
+	url(../../assets/fonts/StreamzyRegular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

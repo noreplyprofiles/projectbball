@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Jungle LIFE';
+	src: url(../../assets/fonts/JungleLIFE.woff2) format('woff2'),
+	url(../../assets/fonts/JungleLIFE.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

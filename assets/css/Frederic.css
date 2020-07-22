@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Frederic';
+	src: url(../../assets/fonts/FredericBlack.woff2) format('woff2'),
+	url(../../assets/fonts/FredericBlack.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Frederic';
+	src: url(../../assets/fonts/FredericRegular.woff2) format('woff2'),
+	url(../../assets/fonts/FredericRegular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Frederic';
+	src: url(../../assets/fonts/FredericBoldItalic.woff2) format('woff2'),
+	url(../../assets/fonts/FredericBoldItalic.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Frederic';
+	src: url(../../assets/fonts/FredericBold.woff2) format('woff2'),
+	url(../../assets/fonts/FredericBold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Frederic';
+	src: url(../../assets/fonts/FredericBlackItalic.woff2) format('woff2'),
+	url(../../assets/fonts/FredericBlackItalic.woff) format('woff');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Frederic';
+	src: url(../../assets/fonts/FredericRegularItalic.woff2) format('woff2'),
+	url(../../assets/fonts/FredericRegularItalic.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+}

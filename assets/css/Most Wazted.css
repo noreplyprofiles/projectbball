@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Most Wazted';
+	src: url(../../assets/fonts/MostWazted.woff2) format('woff2'),
+	url(../../assets/fonts/MostWazted.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

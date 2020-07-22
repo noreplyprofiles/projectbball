@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'HelveticaNowDisplay Hairline';
+	src: url(../../assets/fonts/HelveticaNowDisplay-Hairline.woff2) format('woff2'),
+	url(../../assets/fonts/HelveticaNowDisplay-Hairline.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNowDisplay Hairline';
+	src: url(../../assets/fonts/HelveticaNowDisplay-HairlineI.woff2) format('woff2'),
+	url(../../assets/fonts/HelveticaNowDisplay-HairlineI.woff) format('woff');
+	font-weight: 300;
+	font-style: italic;
+}

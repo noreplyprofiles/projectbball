@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'True Lies';
+	src: url(../../assets/fonts/TrueLies.woff2) format('woff2'),
+	url(../../assets/fonts/TrueLies.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

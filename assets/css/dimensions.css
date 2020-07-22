@@ -1,0 +1,181 @@
+@media (max-width:768px) {
+  #NavPC {
+    display: none;
+  }
+}
+
+@media (min-width:769px) {
+  #NavMobile {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  #ProjectBball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    color: white;
+    font-family: MARSNEVENEKSK;
+    width: 344px;
+    font-size: 100px;
+    transition: ease-in;
+    transition-duration: 1200ms;
+    transition-delay: 250ms;
+  }
+}
+
+@media (min-width:768px) {
+  #ProjectBball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: MARSNEVENEKSK;
+    width: 1200px;
+    font-size: 199px;
+  }
+}
+
+@media (min-width:768px) {
+  #SignUp {
+    font-size: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width:767px) {
+  #SignUp {
+    font-size: 24px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media (min-width:768px) {
+  #Events {
+    color: rgb(0,0,0);
+    font-family: LuloCleanW01-OneBold;
+    font-size: 60px;
+  }
+}
+
+@media (max-width:767px) {
+  #Events {
+    color: rgb(0,0,0);
+    font-family: LuloCleanW01-OneBold;
+    font-size: 30px;
+  }
+}
+
+@media (min-width:768px) {
+  #Event2 {
+    background: white;
+    color: black;
+    font-family: AvenirLTStd;
+    font-size: 35px;
+  }
+}
+
+@media (max-width:767px) {
+  #Event2 {
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-family: AvenirLTStd;
+    font-size: 15px;
+  }
+}
+
+@media (min-width:768px) {
+  #Event2:hover {
+    background: black;
+    color: white;
+    font-family: AvenirLTStd;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 7.5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: ease-in;
+    transition-duration: 0.4s;
+    border-radius: 0.4rem;
+  }
+}
+
+@media (max-width:767px) {
+  #Event2:hover {
+    background: white;
+    color: black;
+    font-family: AvenirLTStd;
+    font-size: 15px;
+    border-radius: 0px;
+  }
+}
+
+.fa.fa-map-marker.footer-contacts-icon:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.fa.fa-envelope.footer-contacts-icon:hover {
+  background-color: black;
+  color: rgb(255,151,245);
+  transition: ease-in;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#pcnavitem {
+  font-family: 'Avenir LT Std';
+  color: #ffffff;
+  background-color: black;
+  border: none;
+}
+
+#pcnavitem:hover {
+  font-family: 'Avenir LT Std';
+  color: rgb(255,151,245);
+  background-color: rgb(0,0,0);
+  border-radius: 0px;
+  transition: ease-in;
+  transition-duration: 0.6s;
+}
+
+@media (min-width:768px) {
+  #MainCover {
+    height: 846px;
+    background-image: url(../../assets/img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width:767px) {
+  #MainCover {
+    height: 700px;
+    background-image: url(../../assets/img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+a:hover {
+  color: rgb(255,151,245);
+  background-color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  transform: translate (-50%, -50%);
+}
+

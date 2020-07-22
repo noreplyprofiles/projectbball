@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'graffonti';
+	src: url(../../assets/fonts/Graffontiatomicbomb.woff2) format('woff2'),
+	url(../../assets/fonts/Graffontiatomicbomb.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

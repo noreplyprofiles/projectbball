@@ -57,67 +57,6 @@
   }
 }
 
-@media (min-width:768px) {
-  #Events {
-    color: rgb(0,0,0);
-    font-family: LuloCleanW01-OneBold;
-    font-size: 60px;
-  }
-}
-
-@media (max-width:767px) {
-  #Events {
-    color: rgb(0,0,0);
-    font-family: LuloCleanW01-OneBold;
-    font-size: 30px;
-  }
-}
-
-@media (min-width:768px) {
-  #Event2 {
-    background: white;
-    color: black;
-    font-family: AvenirLTStd;
-    font-size: 35px;
-  }
-}
-
-@media (max-width:767px) {
-  #Event2 {
-    background: white;
-    color: black;
-    cursor: pointer;
-    font-family: AvenirLTStd;
-    font-size: 15px;
-  }
-}
-
-@media (min-width:768px) {
-  #Event2:hover {
-    background: black;
-    color: white;
-    font-family: AvenirLTStd;
-    font-size: 35px;
-    padding-top: 5px;
-    padding-bottom: 7.5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    transition: ease-in;
-    transition-duration: 0.4s;
-    border-radius: 0.4rem;
-  }
-}
-
-@media (max-width:767px) {
-  #Event2:hover {
-    background: white;
-    color: black;
-    font-family: AvenirLTStd;
-    font-size: 15px;
-    border-radius: 0px;
-  }
-}
-
 .fa.fa-map-marker.footer-contacts-icon:hover {
   background-color: black;
   color: white;
@@ -177,5 +116,92 @@ a:hover {
 
 a {
   transform: translate (-50%, -50%);
+}
+
+@media (min-width:768px) {
+  #title {
+    font-family: 'True Lies';
+    color: rgb(255,151,245);
+    margin-top: 50px;
+    font-size: 150px;
+  }
+}
+
+@media (max-width:767px) {
+  #title {
+    font-family: 'True Lies';
+    color: rgb(255,151,245);
+    margin-top: 50px;
+    font-size: 65px;
+    animation-delay: 250ms;
+    transition: ease-in;
+    transition-duration: 1250ms;
+    transition-delay: 2750ms;
+  }
+}
+
+@media (min-width:768px) {
+  #p1 {
+    color: rgb(255,255,255);
+    font-family: 'HelveticaNowDisplay Hairline';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+  }
+}
+
+@media (max-width:767px) {
+  #p1 {
+    color: rgb(255,255,255);
+    font-family: 'HelveticaNowDisplay Hairline';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    transition: ease-in;
+    transition-duration: 1250ms;
+    transition-delay: 3250ms;
+  }
+}
+
+@media (min-width:767px) {
+  #p2 {
+    color: rgb(255,255,255);
+    font-family: 'HelveticaNowDisplay Hairline';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+  }
+}
+
+@media (max-width:767px) {
+  #p2 {
+    color: rgb(255,255,255);
+    font-family: 'HelveticaNowDisplay Hairline';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    transition: ease-in;
+    transition-duration: 1250ms;
+    transition-delay: 4000ms;
+  }
+}
+
+@media (min-width:767px) {
+  #vid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:767px) {
+  #vid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in;
+    transition-duration: 1250ms;
+    transition-delay: 5000ms;
+  }
 }
 

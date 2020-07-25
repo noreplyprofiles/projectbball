@@ -41,22 +41,6 @@
   }
 }
 
-@media (min-width:768px) {
-  #SignUp {
-    font-size: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-}
-
-@media (max-width:767px) {
-  #SignUp {
-    font-size: 24px;
-    padding-left: 39px;
-    padding-right: 39px;
-  }
-}
-
 .fa.fa-map-marker.footer-contacts-icon:hover {
   background-color: black;
   color: white;
@@ -105,13 +89,6 @@
     background-position: center;
     background-size: cover;
   }
-}
-
-a:hover {
-  color: rgb(255,151,245);
-  background-color: black;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 a {
@@ -203,5 +180,23 @@ a {
     transition-duration: 1250ms;
     transition-delay: 5000ms;
   }
+}
+
+#register {
+  font-family: 'True Lies';
+  color: rgb(255,255,255);
+  font-size: 72px;
+  background-color: rgb(255,151,245);
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 1rem;
+}
+
+#register:hover {
+  color: rgb(255,151,245);
+  background-color: black;
+  text-decoration: none;
+  transition: ease-in;
+  transition-duration: 0.2s;
 }
 

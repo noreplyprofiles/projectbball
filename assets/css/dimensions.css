@@ -163,7 +163,7 @@ a {
   }
 }
 
-@media (min-width:767px) {
+@media (min-width:768px) {
   #vid {
     display: flex;
     align-items: center;
@@ -182,21 +182,56 @@ a {
   }
 }
 
-#register {
-  font-family: 'True Lies';
-  color: rgb(255,255,255);
-  font-size: 72px;
-  background-color: rgb(255,151,245);
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 1rem;
+@media (min-width:768px) {
+  #register {
+    font-family: 'True Lies';
+    color: rgb(255,255,255);
+    font-size: 72px;
+    background-color: rgb(255,151,245);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 1rem;
+    padding-bottom: 0px;
+    padding-top: 13px;
+    margin-bottom: 72px;
+  }
 }
 
-#register:hover {
-  color: rgb(255,151,245);
-  background-color: black;
-  text-decoration: none;
-  transition: ease-in;
-  transition-duration: 0.2s;
+@media (min-width:768px) {
+  #register:hover {
+    color: rgb(255,151,245);
+    background-color: black;
+    text-decoration: none;
+    transition: ease-in;
+    transition-duration: 0.2s;
+  }
+}
+
+@media (max-width:767px) {
+  #register {
+    font-family: 'True Lies';
+    color: rgb(255,255,255);
+    font-size: 38px;
+    background-color: rgb(255,151,245);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 1rem;
+    padding-bottom: 0px;
+    padding-top: 6px;
+    margin-bottom: 72px;
+    transition: ease-in;
+    transition-duration: 1250ms;
+    transition-delay: 4500ms;
+  }
+}
+
+@media (max-width:768px) {
+  #register:hover {
+    color: rgb(255,151,245);
+    background-color: black;
+    text-decoration: none;
+    transition: ease-in;
+    transition-duration: 0.2s;
+  }
 }
 

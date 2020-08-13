@@ -253,3 +253,9 @@ html {
   background-color: rgb(255,151,245);
 }
 
+.social-links a:hover {
+  background-color: black;
+  transition: ease-in;
+  transition-duration: 0.4s;
+}
+

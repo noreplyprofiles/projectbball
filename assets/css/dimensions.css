@@ -15,7 +15,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-family: MARSNEVENEKSK;
@@ -245,9 +245,6 @@ a {
   }
 }
 
-html {
-}
-
 ::selection {
   color: white;
   background-color: rgb(255,151,245);
@@ -257,5 +254,72 @@ html {
   background-color: black;
   transition: ease-in;
   transition-duration: 0.4s;
+}
+
+@media (min-width:768px) {
+  #joinus {
+    font-family: 'True Lies';
+    color: rgb(255,255,255);
+    font-size: 72px;
+    background-color: rgb(255,151,245);
+    padding-left: 115px;
+    padding-right: 115px;
+    border-radius: 1rem;
+    padding-bottom: 0px;
+    padding-top: 13px;
+    margin-bottom: 72px;
+  }
+}
+
+@media (min-width:768px) {
+  #joinus:hover {
+    color: rgb(255,151,245);
+    background-color: black;
+    text-decoration: none;
+    padding-left: 115px;
+    padding-right: 115px;
+    border-radius: 1rem;
+    padding-bottom: 0px;
+    padding-top: 13px;
+    margin-bottom: 72px;
+    transition: ease-in;
+    transition-duration: 0.4s;
+    border-radius: 0.4rem;
+  }
+}
+
+@media (max-width:767px) {
+  #joinus {
+    font-family: 'True Lies';
+    color: rgb(255,255,255);
+    font-size: 38px;
+    background-color: rgb(255,151,245);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 1rem;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 72px;
+    transition: ease-in;
+    transition-duration: 1250ms;
+    transition-delay: 4500ms;
+  }
+}
+
+@media (max-width:768px) {
+  #joinus:hover {
+    color: rgb(255,151,245);
+    background-color: black;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 1rem;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-bottom: 72px;
+    transition: ease-in;
+    transition-duration: 0.4s;
+    border-radius: 0.4rem;
+  }
 }
 

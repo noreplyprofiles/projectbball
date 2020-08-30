@@ -7,6 +7,9 @@
         <loc>https://projectbball.netlify.app/home.html</loc>
     </url>
     <url>
+        <loc>https://projectbball.netlify.app/join.html</loc>
+    </url>
+    <url>
         <loc>https://projectbball.netlify.app/tournament.html</loc>
     </url>
 </urlset>
